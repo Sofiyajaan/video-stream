@@ -18,21 +18,21 @@ async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**Hᴇʏ Hᴏᴛᴛɪᴇ Sʜᴏᴛᴛɪᴇ\n
 **I Aᴍ A Mᴜsɪᴄ Sᴇʀᴠᴇʀ Fᴏʀ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Vᴏɪᴄᴇ Cʜᴀᴛ & Cʜᴀɴɴᴇʟs 😉🌸 Usᴇ Mᴇ Hᴀʀᴅʟʏ & Eɴᴊᴏʏ Mᴜsɪᴄ Wɪᴛʜ Sᴜᴘᴇʀ Dᴜᴘᴇʀ Qᴜᴀʟɪᴛʏ 😈❣️
-Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [Lᴜᴄᴋʏ 𓆩👅𓆪](https://t.me/cute_boy701)**""",
+Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [Azam 𓆩👅𓆪](https://t.me/Azam_sharif_OWNER)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "🌸 ᴏᴡɴᴇʀ 🌸",
-                        url=f"https://t.me/cute_boy701",
+                        url=f"https://t.me/Azam_sharif_OWNER",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🦋 Official Group 🦋", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🦋 Official Group 🦋", url=f"https://t.me/azam_sharif_gorup}"
                     ),
                     InlineKeyboardButton(
-                        "🦋 Official Channel 🦋", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🦋 Official Channel 🦋", url=f"https://t.me/cinema_a2z}"
                     ),
                 ],
             ]
