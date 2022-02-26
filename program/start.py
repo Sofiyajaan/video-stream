@@ -53,21 +53,21 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""**Hᴇʏ Hᴏᴛᴛɪᴇ Sʜᴏᴛᴛɪᴇ I Aᴍ A Mᴜsɪᴄ Sᴇʀᴠᴇʀ Fᴏʀ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Vᴏɪᴄᴇ Cʜᴀᴛ & Cʜᴀɴɴᴇʟs 😉🌸 Usᴇ Mᴇ Hᴀʀᴅʟʏ & Eɴᴊᴏʏ Mᴜsɪᴄ Wɪᴛʜ Sᴜᴘᴇʀ Dᴜᴘᴇʀ Qᴜᴀʟɪᴛʏ 😈❣️
-Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [Lᴜᴄᴋʏ 𓆩👅𓆪](https://t.me/cute_boy701)**""",
+Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [Azam 𓆩👅𓆪](https://t.me/Azam_sharif_OWNER)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "🌸 ᴏᴡɴᴇʀ 🌸",
-                        url=f"https://t.me/cute_boy701",
+                        url=f"https://t.me/Azam_sharif_OWNER",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🦋 ʟᴜᴄᴋʏ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🦋 Azam ɢʀᴏᴜᴘ", url=f"https://t.me/azam_sharif_gorup"
                     ),
                     InlineKeyboardButton(
-                        "ʟᴜᴄᴋʏ ᴄʜᴀɴɴᴇʟ 🦋", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "Azam ᴄʜᴀɴɴᴇʟ 🦋", url=f"https://t.me/cinema_a2z"
                     ),
                 ],
             ]
@@ -87,9 +87,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🦋 ʟᴜᴄᴋʏ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("🦋 AZAM ɢʀᴏᴜᴘ", url=f"https://t.me/azam_sharif_gorup"),
                 InlineKeyboardButton(
-                    "ʟᴜᴄᴋʏ ᴄʜᴀɴɴᴇʟ 🦋", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "Azam ᴄʜᴀɴɴᴇʟ 🦋", url=f"https://t.me/cinema_a2z"
                 ),
             ]
         ]
