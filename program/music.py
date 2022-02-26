@@ -57,8 +57,8 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="🌸 ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
-                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 🌸", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="🌸 ᴏᴡɴᴇʀ", url=f"https://t.me/Azam_sharif_OWNER"),
+                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 🌸", url=f"https://t.me/azam_sharif_gorup"),
             ]
         ]
     )
@@ -129,7 +129,7 @@ async def play(c: Client, m: Message):
                 await suhu.delete()
                 await m.reply_photo(
                     photo=f"{IMG_1}",
-                    caption=f"🦋 **Track added to queue »** `{pos}`\n\n **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {m.from_user.mention()}",
+                    caption=f"🦋 **Track added to queue »** `{pos}`\n\n **🦋 Azam ᴜꜱᴇʀ:** {m.from_user.mention()}",
                     reply_markup=keyboard,
                 )
             else:
@@ -146,7 +146,7 @@ async def play(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=f"{IMG_2}",
-                    caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ**\n🦋 **Status: ᴘʟᴀʏɪɴɢ 🦋**\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                    caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ**\n🦋 **Status: ᴘʟᴀʏɪɴɢ 🦋**\n**🦋 Azamᴜꜱᴇʀ:** {requester}",
                     reply_markup=keyboard,
                 )
              except Exception as e:
@@ -158,7 +158,7 @@ async def play(c: Client, m: Message):
                     "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
                 )
             else:
-                suhu = await m.reply("**💥**")
+                suhu = await m.reply("**🎸**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
@@ -178,7 +178,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=f"{IMG_1}",
-                                caption=f"🦋 **Track added to queue »** `{pos}`\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                                caption=f"🦋 **Track added to queue »** `{pos}`\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n**🦋 Azam ᴜꜱᴇʀ:** {requester}",
                                 reply_markup=keyboard,
                             )
                         else:
@@ -195,7 +195,7 @@ async def play(c: Client, m: Message):
                                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                                 await m.reply_photo(
                                     photo=f"{IMG_2}",
-                                    caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status: ᴘʟᴀʏɪɴɢ🦋**\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                                    caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status: ᴘʟᴀʏɪɴɢ🦋**\n**🦋 Azam ᴜꜱᴇʀ:** {requester}",
                                     reply_markup=keyboard,
                                 )
                             except Exception as ep:
@@ -208,7 +208,7 @@ async def play(c: Client, m: Message):
                 "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋😕.**"
             )
         else:
-            suhu = await m.reply("💥")
+            suhu = await m.reply("🎸")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -245,7 +245,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=f"{IMG_2}",
-                                caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status: ᴘʟᴀʏɪɴɢ🦋**\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                                caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status: ᴘʟᴀʏɪɴɢ🦋**\n**🦋 Azam ᴜꜱᴇʀ:** {requester}",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
@@ -262,7 +262,7 @@ async def stream(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="🌸 ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
+                InlineKeyboardButton(text="🌸 ᴏᴡɴᴇʀ", url=f"https://t.me/azam_sharif_gorup"),
                 InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 🌸", url=f"https://t.me/terayaarhoomai"),
             ]
         ]
@@ -356,9 +356,10 @@ async def stream(c: Client, m: Message):
                     )
                     await m.reply_photo(
                         photo=f"{IMG_2}",
-                        caption=f"🦋 **[Music live]({link}) stream started.**\n\n🦋 **Status: ᴘʟᴀʏɪɴɢ🦋**\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                        caption=f"🦋 **[Music live]({link}) stream started.**\n\n🦋 **Status: ᴘʟᴀʏɪɴɢ🦋**\n**🦋 Azam ᴜꜱᴇʀ:** {requester}",
                         reply_markup=keyboard,
                     )
                 except Exception as ep:
                     await suhu.delete()
                     await m.reply_text(f"🚫 error: `{ep}`")
+Aza op
